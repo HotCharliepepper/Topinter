@@ -1,0 +1,446 @@
+{
+  "schema_version": "weplace.proposal_plan.v2.0",
+  "version": "R2",
+  "as_of": "2026-11-02",
+  "project_id": "top-interior-new-20261102",
+  "document_type": "INTERACTIVE_MEETING_PRICING_ADDON_DRAWER",
+  "single_decision": "운영 방식 선택 후 필요한 디지털 기반을 옵션으로 설계한다",
+  "client": {
+    "business_name": "탑인테리어",
+    "separate_from_legacy_same_named_business": true,
+    "region": null,
+    "representative_name": null,
+    "business_identity_verified": false,
+    "specialties": [],
+    "service_area": [],
+    "site_url": null,
+    "naver_place_url": null,
+    "google_business_profile_url": null,
+    "contact_options": [],
+    "assets_verified": false,
+    "region_context": "도봉 미팅 대상 (사용자 제공, 정확한 주소 및 사업자 식별 미확인)",
+    "region_verified": false
+  },
+  "meeting": {
+    "date": "2026-11-02",
+    "presenter": "박규민",
+    "status": "scheduled_per_user"
+  },
+  "content_status_definitions": {
+    "CONFIRMED": "제공 자료·공개 화면·공식 문서에서 확인한 범위. 운영 사실이나 성과로 확대하지 않음",
+    "NEED VERIFY": "자료·독립 확인·공개권·계약 조건이 필요함",
+    "HYPOTHESIS": "실제 미팅·고객 반응으로 확인할 장면",
+    "PROPOSAL": "제작·운영·일정 가안. 고객 승인과 별개"
+  },
+  "release": {
+    "implementation": "IMPLEMENTED",
+    "technical_qa": "RUN_LOCAL_BROWSER_TESTS",
+    "client_approval": "NOT_APPROVED",
+    "published": false,
+    "outcome_verified": false
+  },
+  "q1": [
+    {
+      "id": "whole",
+      "label": "전체 리모델링 상담",
+      "detail": "집 전체의 범위와 순서를 함께 판단하는 고객",
+      "short": "[실제 지역] 전체 리모델링 업체",
+      "long": "우리 집 전체를 고치려는데, 비슷한 공사 경험과 견적 범위를 어디서 확인할까요?",
+      "hero": "우리 집 전체를 바꾸기 전,\n확인하고 싶은 것부터.",
+      "caseLabel": "전체 리모델링 기록",
+      "guide": "전체 범위·공정 간 연결·생활 일정에 맞춘 설명"
+    },
+    {
+      "id": "partial",
+      "label": "부분 공사 상담",
+      "detail": "필요한 공간부터 바꾸고 싶은 고객",
+      "short": "[실제 지역] 부분 인테리어 상담",
+      "long": "집 전체 말고 필요한 공간만 고치고 싶어요. 가능한 범위와 추가 작업을 어떻게 확인하죠?",
+      "hero": "필요한 공간부터,\n어디까지 바꿀 수 있을까요.",
+      "caseLabel": "부분 공사 기록",
+      "guide": "실제 작업 범위·기존 공간과의 연결·추가 작업 변수"
+    },
+    {
+      "id": "commercial",
+      "label": "상가·업무공간 상담",
+      "detail": "공간의 쓰임과 운영 일정을 함께 보는 고객",
+      "short": "[실제 지역] 상가·업무공간 인테리어",
+      "long": "영업이나 업무 일정을 고려해 공간을 바꾸려면, 비슷한 시공 기록과 공사 순서를 어디서 볼까요?",
+      "hero": "공간의 쓰임에 맞춰,\n공사의 순서를 확인합니다.",
+      "caseLabel": "상가·업무공간 기록",
+      "guide": "공간의 쓰임·공사 단계·운영 일정과의 관계"
+    },
+    {
+      "id": "discuss",
+      "label": "공종부터 함께 정리",
+      "detail": "현재 잘하는 일과 더 맡을 일을 먼저 구분",
+      "short": "[실제 지역] [확인할 공종] 시공 상담",
+      "long": "어떤 작업을 맡길 수 있는지, 실제 사례와 상담 범위를 먼저 확인하고 싶어요.",
+      "hero": "어떤 공사를 맡길 수 있는지,\n실제 기록으로 확인하도록.",
+      "caseLabel": "제공 공종 확인 후 기록",
+      "guide": "실제 제공 공종·사업 지역·원하는 상담 유형부터 확인"
+    }
+  ],
+  "q2": [
+    {
+      "id": "cost",
+      "label": "비용·추가 작업",
+      "detail": "견적은 어디까지 포함되나요?",
+      "faqTitle": "견적은 무엇에 따라 달라지나요?",
+      "faqText": "면적, 철거, 자재와 작업 범위 등 실제 산정 변수를 확인해 안내합니다. 구체 금액과 추가 비용 기준은 대표님 검토 후 게시합니다.",
+      "recordFirst": "견적을 바꾸는 변수",
+      "recordValue": "실제 공사 범위·철거·자재 기준 수령 후 기재",
+      "deliverable": "견적 변수·추가 작업 FAQ"
+    },
+    {
+      "id": "craft",
+      "label": "시공 경험·마감",
+      "detail": "우리 상황과 비슷한 작업을 해봤나요?",
+      "faqTitle": "비슷한 시공 경험을 어디서 볼 수 있나요?",
+      "faqText": "해당 업체의 실제 사진에 공간 종류, 작업 범위와 마감 설명을 연결합니다. 공개 가능한 원본과 검수 내용을 확인한 후 게시합니다.",
+      "recordFirst": "선택과 시공 과정",
+      "recordValue": "무엇을 바꾸고 왜 선택했는지 현장 설명 수령",
+      "deliverable": "시공 과정·마감 판단을 보여주는 사례 상세"
+    },
+    {
+      "id": "care",
+      "label": "일정·완료 후 책임",
+      "detail": "언제 끝나고, 문제는 어떻게 확인하나요?",
+      "faqTitle": "일정과 완료 후 확인은 어떻게 진행되나요?",
+      "faqText": "실측·자재 수급·시공·검수의 실제 순서와 AS 연락 방법을 확인합니다. 가능 일정과 보증 범위는 임의로 약속하지 않습니다.",
+      "recordFirst": "일정·검수·AS 기준",
+      "recordValue": "실제 진행 절차·책임 범위 확인 후 기재",
+      "deliverable": "일정·검수·AS 안내"
+    },
+    {
+      "id": "unknown",
+      "label": "아직 정리하지 않았어요",
+      "detail": "최근 상담에서 반복된 질문부터 확인",
+      "faqTitle": "상담 전에 무엇을 준비하면 좋을까요?",
+      "faqText": "지역, 공간 규모, 원하는 공종과 희망 시기를 먼저 정리합니다. 실제 반복 질문을 수집한 뒤 첫 안내를 결정합니다.",
+      "recordFirst": "먼저 확인할 질문",
+      "recordValue": "최근 상담 기록에서 반복된 질문 수집",
+      "deliverable": "실제 반복 질문 수집표"
+    }
+  ],
+  "package_data": {
+    "A": {
+      "title": "월간 성장 운영",
+      "short": "월간 성장 운영",
+      "type": "monthly_12",
+      "label": "매달 기록과 반응을 쌓는 방식",
+      "description": "현장 기록을 매월 업데이트하고 검색정보·문의 반응을 지속적으로 점검합니다.",
+      "monthly_net": 300000,
+      "months": 12,
+      "net_total": 3600000,
+      "deliverables": [
+        "네이버 기본정보 초기 점검·정리",
+        "제공 사진 기반 시공 콘텐츠 월 1건 · 총 12건 가안",
+        "월 1회 검색정보·문의 흐름 점검 메모"
+      ],
+      "first": "주력 공종과 실제 시공 사진 2건을 받아 첫 30일의 게시 주제와 수정 우선순위를 정합니다.",
+      "reason": "매월 콘텐츠와 점검 기록이 필요한 사업자를 위한 12개월 운영 가안입니다. 홈페이지 개발과 GBP 직접 설정은 선택 항목입니다.",
+      "prerequisites": [
+        "매월 실제 시공 자료 공급·공개권",
+        "공식 채널 관리 권한 및 승인 절차"
+      ]
+    },
+    "B": {
+      "title": "연간 기본 관리",
+      "short": "연간 기본 관리",
+      "type": "annual_prepaid",
+      "label": "분기마다 정보를 놓치지 않는 방식",
+      "description": "초기 정보 점검 후 분기 단위로 공종·사진·FAQ를 정돈합니다.",
+      "one_time_net": 1800000,
+      "months": 12,
+      "net_total": 1800000,
+      "deliverables": [
+        "네이버·공식 정보 초기 점검 1회",
+        "분기별 대표 정보·사진·FAQ 정비 4회 가안",
+        "분기별 진행 기록·개선 요약 4회"
+      ],
+      "first": "현재 공식 채널과 반복 문의를 확인하고 첫 분기에 바로 수정할 정보부터 확정합니다.",
+      "reason": "월간 운영보다 적은 빈도의 정보 관리가 필요한 사업자를 위한 일괄 납부형입니다. 월별 콘텐츠 제작과 홈페이지 개발은 포함하지 않습니다.",
+      "prerequisites": [
+        "분기별 변경 사항 제공",
+        "채널 수정 가능 여부 확인"
+      ]
+    },
+    "C": {
+      "title": "1회성 초기 정비",
+      "short": "1회성 초기 정비",
+      "type": "one_time",
+      "label": "당장 고객이 확인할 자료부터",
+      "description": "현재 채널을 점검하고 대표 시공 2건의 설명과 상담 준비 안내를 1회 제작합니다.",
+      "one_time_net": 1800000,
+      "months": 0,
+      "net_total": 1800000,
+      "deliverables": [
+        "사업정보·채널 정비안 1회",
+        "실제 시공 2건 설명 콘텐츠 구성",
+        "견적 변수·FAQ·문의 동선 원고 납품"
+      ],
+      "first": "실제 사진 두 현장과 견적·AS 안내 기준을 받아 초기 정비 결과물부터 제작합니다.",
+      "reason": "완성된 설명·사진·안내 원고를 한 번에 확보하는 구축형입니다. 홈페이지 코딩·배포와 운영은 선택 항목입니다.",
+      "prerequisites": [
+        "현장 사진 2건·사용권",
+        "견적·시공·AS 관련 원본 설명"
+      ]
+    }
+  },
+  "scope_rows": [
+    {
+      "name": "공식 정보 초기 점검·정리",
+      "A": "포함 · 1회",
+      "B": "포함 · 1회",
+      "C": "포함 · 1회"
+    },
+    {
+      "name": "현장 콘텐츠 제작",
+      "A": "월 1건 · 12건 가안",
+      "B": "분기별 사진·FAQ 업데이트",
+      "C": "대표 시공 2건 상세 원고"
+    },
+    {
+      "name": "진행·문의 점검",
+      "A": "월별 · 12회 가안",
+      "B": "분기별 · 4회 가안",
+      "C": "초기 점검 1회"
+    },
+    {
+      "name": "신규 홈페이지 제작",
+      "A": "추가 메뉴 · 별도 견적",
+      "B": "추가 메뉴 · 별도 견적",
+      "C": "추가 메뉴 · 별도 견적"
+    },
+    {
+      "name": "Google 비즈니스 프로필 세팅",
+      "A": "추가 메뉴 · 별도 견적",
+      "B": "추가 메뉴 · 별도 견적",
+      "C": "추가 메뉴 · 별도 견적"
+    },
+    {
+      "name": "호스팅·배포·유지관리",
+      "A": "추가 메뉴 · 별도 견적",
+      "B": "추가 메뉴 · 별도 견적",
+      "C": "추가 메뉴 · 별도 견적"
+    },
+    {
+      "name": "출장 촬영·광고·SNS 운영",
+      "A": "계약범위 밖 · 별도 협의",
+      "B": "계약범위 밖 · 별도 협의",
+      "C": "계약범위 밖 · 별도 협의"
+    }
+  ],
+  "billing_rules": {
+    "currency": "KRW",
+    "quote_status": "PROPOSAL_DRAFT",
+    "vat_rate": 0.1,
+    "vat_treatment": "공급가에 10%를 가산한 견적 시뮬레이션 (최종 발행 기준 별도 확인)",
+    "addon_price_status": "ALL_NEED_VERIFY",
+    "unknown_is_zero": false,
+    "monthly_collection": "월 단위 청구 가안; 선납금·납부일 확정 전",
+    "one_time_collection": "계약 후 일괄 청구 가안; 착수·검수·환불 조건 합의 전",
+    "domain_hosting_net": null,
+    "discount": 0,
+    "discount_approved": false,
+    "payment_schedule_approved": false,
+    "rules": [
+      "미확정 추가 메뉴 비용은 0원으로 표시하거나 총액에 더하지 않음",
+      "선택한 메뉴가 하나라도 미정이면 최종 합계 금액은 미정",
+      "구축과 운영 중복 청구 금지"
+    ]
+  },
+  "questions_contract": {
+    "q1": "고객 검색 장면·모바일 첫 문장·사례 제목",
+    "q2": "사례 첫 설명·모바일 FAQ 우선순위·후속 결과물",
+    "q3": "가격안 선택·추가 메뉴 제안·계산·진행 순서·미팅 요약"
+  },
+  "evidence": [
+    {
+      "id": "E01",
+      "status": "CONFIRMED",
+      "title": "신규 업체 구분·미팅 맥락",
+      "text": "첨부 브리프·입력 JSON에 상호 탑인테리어, 2026-11-02 박규민 미팅, 과거 동명 업체와 별도 사업자로 명시됨.",
+      "limit": "의뢰 내용 확인 범위. 지역·대표자·사업자등록·공종은 독립 확인 전.",
+      "source": "첨부 브리프 v1.0 및 intake v0.1",
+      "url": null,
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "E02",
+      "status": "CONFIRMED",
+      "title": "리가세탁 공개 정보 구조",
+      "text": "공개 페이지의 기본요금·맡기기 전 안내·문의 메모·주소를 확인. 메모는 전송 기능이 아님.",
+      "limit": "운영 정확성·사용권·매출·검색 성과는 검증 범위 밖. 페이지의 robots noindex,follow도 확인해 검색 성과 예시로 사용하지 않음.",
+      "source": "공개 페이지 원본 HTML·CSS를 내려받아 로컬 Chromium에서 재현한 화면",
+      "url": "https://ligalaundry.kr/",
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "E03",
+      "status": "CONFIRMED",
+      "title": "Google 검색의 AI 기능 안내",
+      "text": "관련 웹페이지를 참고하는 AI 기능과 경험 기반의 유용한 콘텐츠·명료한 정보 구조를 공식 문서에서 안내함.",
+      "limit": "Google 안내 범위. 탑인테리어 노출·다른 AI·수익·이용률에 대한 증거가 아니며 색인·제공은 보장되지 않음.",
+      "source": "Google Search Central",
+      "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+      "secondary_url": "https://developers.google.com/search/docs/appearance/ai-features",
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "E04",
+      "status": "CONFIRMED",
+      "title": "GBP 정보 정확성과 지역 검색",
+      "text": "정확하고 완전한 사업정보와 실제 사진을 관리하는 방향을 공식 안내에서 확인함.",
+      "limit": "순위는 관련성·거리·인지도 등 여러 요인에 따름. 이 제안서의 성과 보증이 아님.",
+      "source": "Google Business Profile Help",
+      "url": "https://support.google.com/business/answer/7091",
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "E05",
+      "status": "CONFIRMED",
+      "title": "GBP 사업자·출장형 업체 기준",
+      "text": "실제 사업의 이름·주소 또는 서비스 지역을 정확히 나타내야 하며 업체 유형·등록 자격을 확인해야 함.",
+      "limit": "신규 탑인테리어의 자격·소유권·실제 주소 공개 여부는 NEED VERIFY.",
+      "source": "Google Business Profile Help",
+      "url": "https://support.google.com/business/answer/3038177",
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "E06",
+      "status": "NEED VERIFY",
+      "title": "울산 도배가",
+      "text": "브리프에 시공 사례·견적 변수·FAQ·문의 구조 참고로 기재됨.",
+      "limit": "공식 URL·배포·원본 화면·고객 성과는 확인 전. 완성 화면이나 실적으로 제시하지 않음.",
+      "source": "첨부 브리프·intake",
+      "url": null,
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "E07",
+      "status": "NEED VERIFY",
+      "title": "바른종합설비",
+      "text": "사용자 언급 참고 후보.",
+      "limit": "업체 식별·공식 URL·산출물·성과 확인 전. 바른종합환경 자료는 사용하지 않음.",
+      "source": "첨부 브리프·intake",
+      "url": null,
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "E08",
+      "status": "HYPOTHESIS",
+      "title": "고객 검색·걱정 장면",
+      "text": "공종 경험·견적 변수·일정·책임을 확인하려는 고객 장면과 검색 질문은 제안자가 만든 예시.",
+      "limit": "실제 고객 발언·검색량·AI 응답·유입 통계가 아님. 미팅·상담 기록으로 확인 필요.",
+      "source": "Weplace 제안 설계",
+      "url": null,
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "E09",
+      "status": "CONFIRMED",
+      "title": "Google 비즈니스 프로필 생성은 무료",
+      "text": "Google 공식 고객센터에 비즈니스 프로필 추가·소유권 주장과 관리는 무료로 안내됨. 본 제안의 GBP 추가 메뉴는 플랫폼 비용이 아니라 설정 대행 비용임.",
+      "limit": "인증 성공·노출·추천을 보장하지 않으며 업체 자격·소유권·현장 인증은 별도 검증해야 함.",
+      "source": "Google Business Profile Help",
+      "url": "https://support.google.com/business/answer/2911778?hl=ko",
+      "as_of": "2026-11-02"
+    }
+  ],
+  "verification_required": [
+    "신규 탑인테리어 공식 지역 및 사업자 정보",
+    "공종/전문 영역",
+    "기존 네이버/GBP/홈페이지",
+    "실제 시공 사진 2건 사용 허락",
+    "견적 및 AS 정책",
+    "고객 문의 접수 방식",
+    "제안 가격·범위·기간·촬영 포함 여부",
+    "관리기간·수정 횟수·해지/환불·부대비용·납부 일정",
+    "실제 수신 연동·개인정보 고지·분석 권한",
+    "희망 공종·수주 용량·현재 기준값",
+    "월 30만원×12개월 / 연간 180만원 / 1회성 180만원 가격·범위·결제 승인",
+    "GBP 세팅·홈페이지 개발·호스팅 추가 가격·작업범위 승인",
+    "홈페이지·도메인 소유권과 만료·해지 시 인도 규칙"
+  ],
+  "assets": [
+    {
+      "id": "PHOTO_01",
+      "type": "client_photo",
+      "path": null,
+      "status": "NEED VERIFY",
+      "rights": "NEED VERIFY",
+      "caption": "본 업체 실제 시공 사진 수령 전"
+    },
+    {
+      "id": "LIGA_SCREEN",
+      "type": "public_page_excerpt",
+      "path": "source/assets/liga-before.png",
+      "status": "CONFIRMED",
+      "rights": "미팅 자료의 출처 명시 일부 인용; 별도 공개 재배포 권한 미확인",
+      "captured_at": "2026-11-02",
+      "source_url": "https://ligalaundry.kr/#before"
+    }
+  ],
+  "reuse_architecture": {
+    "shared_70": [
+      "질문 상태·목차·출력·요약·JSON 기록",
+      "근거 상태·범위 원천·접근성·검수 흐름",
+      "선택형 본상품+애드온 견적 서랍과 VAT 계산",
+      "가격 미확정 분리·미팅 JSON·인쇄 연동"
+    ],
+    "client_specific_30": [
+      "신규 업체 식별과 자료 제한",
+      "시공 사진·작업 설명·견적 변수",
+      "공종별 고객 장면·현장 기록 운영"
+    ]
+  },
+  "state": {
+    "q1": null,
+    "q2": null,
+    "q3": null,
+    "meeting_note": "",
+    "photo_loaded": false,
+    "responses_status": "NOT_RECORDED"
+  },
+  "claim_limits": [
+    "AI 검색 노출·추천·순위·매출 보장 금지",
+    "허위 지역/지점/리뷰/시공사례 금지",
+    "동명 다른 탑인테리어의 자료 재사용 금지",
+    "바른종합설비와 바른종합환경 혼동 금지"
+  ],
+  "pricing_approval": "PROPOSAL_DRAFT_ONLY",
+  "addon_data": {
+    "gbp": {
+      "id": "gbp",
+      "name": "Google 비즈니스 프로필 세팅",
+      "short": "GBP 세팅",
+      "tag": "발견",
+      "billing": "one_time",
+      "description": "기존 프로필·소유권 확인, 사업 카테고리와 서비스 지역 정리, 사진·서비스·인증 절차 지원.",
+      "requires": "업체 자격·소유권·인증 단계 확인. Google 프로필 생성·관리는 무료이며 대행 업무에만 비용을 제안합니다.",
+      "price_net": null
+    },
+    "web": {
+      "id": "web",
+      "name": "시공사례 중심 홈페이지 개발",
+      "short": "홈페이지 개발",
+      "tag": "확인",
+      "billing": "one_time",
+      "description": "모바일 1차 구축 · 공종/시공사례/견적 FAQ/문의 동선 · 기본 검색 구조 설계.",
+      "requires": "페이지 수·디자인 수정·실제 사례 자료·문의 연동·소스 인도 조건은 계약 전 합의.",
+      "price_net": null
+    },
+    "hosting": {
+      "id": "hosting",
+      "name": "홈페이지 호스팅 · 배포 관리",
+      "short": "호스팅·배포",
+      "tag": "안심",
+      "billing": "annual",
+      "description": "기존 또는 신규 홈페이지의 배포·도메인 연결·SSL·기본 운영 점검. 최초 1년 기준.",
+      "requires": "서버/도메인 제3자 실비 및 갱신 비용, 수정·백업 범위, 계정 소유권 확인. 개발비와 별개.",
+      "price_net": null
+    }
+  }
+}
